@@ -1,5 +1,0 @@
-sudo apt update
-sudo apt install x11-apps
-
-sudo apt install kicad
-
