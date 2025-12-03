@@ -1,0 +1,17 @@
+FROM ghcr.io/volinhtruc/bico_ubuntu:22.04_0.0.0
+
+USER root
+
+RUN apt update \
+    && apt install -y software-properties-common 
+RUN add-apt-repository --yes ppa:kicad/kicad-9.0-releases 
+RUN apt update 
+RUN apt install -y kicad
+
+# Copy and set up entrypoint script (relative to .devcontainer/)
+COPY ./entrypoint.sh /entrypoint.sh
+RUN sudo chmod +x /entrypoint.sh
+
+USER $USERNAME
+
+CMD ["/entrypoint.sh", "bash"]

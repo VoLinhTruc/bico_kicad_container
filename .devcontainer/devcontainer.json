@@ -1,0 +1,29 @@
+{
+
+  "name": "/bico_kicad_ubuntu_2204",
+  // Build configuration
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".",
+    "args": {}
+  },
+  // Container runtime configuration
+  "runArgs": [
+    "--name", "/bico_kicad_ubuntu_2204",
+    "--privileged",
+    // "--network", "host",
+  ],
+  "mounts": [
+    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind"
+  ],
+  // Add DISPLAY environment variable
+  "containerEnv": {
+    "DISPLAY": "${localEnv:DISPLAY}"
+  },
+
+  "postCreateCommand": "/entrypoint.sh" ,
+  // "postStartCommand": "",
+  // "postAttachCommand": "",
+
+
+}
