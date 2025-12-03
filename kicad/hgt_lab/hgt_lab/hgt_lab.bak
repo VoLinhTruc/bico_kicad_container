@@ -1,0 +1,923 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "HSD_Control_Box"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -4.826 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HSD_Control_Box_0_1"
+			(rectangle
+				(start -3.81 25.4)
+				(end 11.43 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "HSD_Control_Box_1_1"
+			(rectangle
+				(start 0 24.13)
+				(end 2.54 20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 16.51)
+				(end 2.54 12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 8.89)
+				(end 2.54 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 16.51) (xy 1.27 20.32)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 15.24) (xy 1.27 15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 8.89) (xy 1.27 12.7)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 24.13) (xy 11.43 20.32)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 21.59) (xy 3.81 21.59)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 16.51) (xy 11.43 12.7)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 13.97) (xy 3.81 13.97)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 8.89) (xy 11.43 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 6.35) (xy 3.81 6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 21.59) (xy 11.43 20.32)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 13.97) (xy 11.43 12.7)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy 11.43 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 3.81 21.59)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy -2.54 1.27) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 132 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "hsd3"
+				(at -2.032 22.352 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "hsd2"
+				(at -2.032 14.732 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "hsd1"
+				(at -2.032 6.858 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "power"
+				(at -0.762 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "can"
+				(at 5.334 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "DB9_ALL"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 20.32 180)
+				(length 2.54)
+				(name "DB9_ALL_hsd3"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 12.7 180)
+				(length 2.54)
+				(name "DB9_ALL_hsd2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "DB9_ALL_hsd1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "anchor"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "anchor_0_1"
+			(rectangle
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "anchor_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "DB9_ALL_in"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "anchor_daisy_chain"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "anchor_daisy_chain_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "anchor_daisy_chain_1_1"
+			(pin input line
+				(at -2.54 5.08 270)
+				(length 2.54)
+				(name "DB9_ALL_in"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "DB9_ALL_out"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "can_power_rewrire_box"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "can_power_rewrire_box_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "can_power_rewrire_box_1_1"
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 153 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 132 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "DB9_CAN"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "DB9_ALL"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "Power"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "power_supply"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "power_supply_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "power_supply_1_1"
+			(pin output line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "Power"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "vector_can"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "vector_can_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "vector_can_1_1"
+			(pin output line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "DB9_CAN"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

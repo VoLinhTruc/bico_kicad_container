@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vector_can")(type "KiCad")(uri "${KIPRJMOD}/vector_can.kicad_sym")(options "")(descr ""))
+  (lib (name "hgt_lab")(type "KiCad")(uri "${KIPRJMOD}/hgt_lab.kicad_sym")(options "")(descr ""))
+)

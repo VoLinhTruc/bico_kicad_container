@@ -1,0 +1,2037 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "71882b24-4576-410d-80ea-9cc90d8a026f")
+	(paper "User" 88.9 127)
+	(title_block
+		(title "hgt_lab")
+		(date "2025-12-03")
+		(rev "0")
+		(company "BGSV")
+		(comment 1 "vor5hc")
+	)
+	(lib_symbols
+		(symbol "anchor_daisy_chain_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "anchor_daisy_chain_1_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "anchor_daisy_chain_1_1_1"
+				(pin input line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "DB9_ALL_in"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "DB9_ALL_out"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "anchor_daisy_chain_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "anchor_daisy_chain_2_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "anchor_daisy_chain_2_1_1"
+				(pin input line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "DB9_ALL_in"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "DB9_ALL_out"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "hgt_lab:HSD_Control_Box"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.826 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HSD_Control_Box_0_1"
+				(rectangle
+					(start -3.81 25.4)
+					(end 11.43 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HSD_Control_Box_1_1"
+				(rectangle
+					(start 0 24.13)
+					(end 2.54 20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 16.51)
+					(end 2.54 12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 8.89)
+					(end 2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 16.51) (xy 1.27 20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 15.24) (xy 1.27 15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 8.89) (xy 1.27 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 24.13) (xy 11.43 20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 21.59) (xy 3.81 21.59)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 16.51) (xy 11.43 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 13.97) (xy 3.81 13.97)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.89) (xy 11.43 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.35) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 21.59) (xy 11.43 20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 13.97) (xy 11.43 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy 11.43 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 21.59)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy -2.54 1.27) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "hsd3"
+					(at -2.032 22.352 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "hsd2"
+					(at -2.032 14.732 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "hsd1"
+					(at -2.032 6.858 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "power"
+					(at -0.762 2.54 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "can"
+					(at 5.334 2.54 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "DB9_ALL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 20.32 180)
+					(length 2.54)
+					(name "DB9_ALL_hsd3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 12.7 180)
+					(length 2.54)
+					(name "DB9_ALL_hsd2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 5.08 180)
+					(length 2.54)
+					(name "DB9_ALL_hsd1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "hgt_lab:anchor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "anchor_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "anchor_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "DB9_ALL_in"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "hgt_lab:anchor_daisy_chain"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "anchor_daisy_chain_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "anchor_daisy_chain_1_1"
+				(pin input line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "DB9_ALL_in"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "DB9_ALL_out"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "hgt_lab:can_power_rewrire_box"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "can_power_rewrire_box_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "can_power_rewrire_box_1_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "DB9_CAN"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "DB9_ALL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "Power"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "hgt_lab:power_supply"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "power_supply_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "power_supply_1_1"
+				(pin output line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Power"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "hgt_lab:vector_can"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "vector_can_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "vector_can_1_1"
+				(pin output line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "DB9_CAN"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0665c9c0-2104-49e7-ba20-46d8b7b80854")
+	)
+	(wire
+		(pts
+			(xy 34.29 59.69) (xy 34.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14247061-4f8b-4b7f-9350-a6643c47ff20")
+	)
+	(wire
+		(pts
+			(xy 34.29 71.12) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f07e2e1-30c8-4505-bf2d-da00948131e3")
+	)
+	(wire
+		(pts
+			(xy 41.91 29.21) (xy 41.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "32c99b9c-faa2-46c1-87cd-df252556adc5")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e56ef5b-1bcb-4420-a963-dfe079f79cbc")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 45.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "608ae191-53bb-4bd5-8c0d-f7588d548c82")
+	)
+	(wire
+		(pts
+			(xy 57.15 69.85) (xy 58.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756697cb-c328-449e-862a-c64b87d1993a")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 34.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a57ebf1-081e-4bf3-ad9c-e6296f4e9e55")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 31.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0c0a18-d780-4e7a-953d-2eae3a170388")
+	)
+	(wire
+		(pts
+			(xy 31.75 77.47) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f37f301-cff2-4b7e-98fb-d0d735a60b76")
+	)
+	(wire
+		(pts
+			(xy 33.02 29.21) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "a88517b4-3486-4bd3-93c4-bf60df15e5cc")
+	)
+	(wire
+		(pts
+			(xy 58.42 62.23) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89a8a77-36d7-4ce4-8daf-65f530b924b3")
+	)
+	(wire
+		(pts
+			(xy 45.72 29.21) (xy 41.91 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b58620de-b212-46ec-811d-fa18e8fa2c86")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "b63cdebb-3824-48c7-aa9d-28e8daea141a")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98d4a4e-8616-4884-87a1-1376ded8e4c8")
+	)
+	(wire
+		(pts
+			(xy 33.02 25.4) (xy 33.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "bfad8030-08b5-454a-b7d7-68139f02b807")
+	)
+	(wire
+		(pts
+			(xy 31.75 59.69) (xy 34.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc642ada-0677-4f4d-aafa-247ca1fb48d1")
+	)
+	(wire
+		(pts
+			(xy 34.29 66.04) (xy 31.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f050b787-77e5-4919-a209-217459c93c0b")
+	)
+	(symbol
+		(lib_name "anchor_daisy_chain_1")
+		(lib_id "hgt_lab:anchor_daisy_chain")
+		(at 26.67 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08b331d6-da8d-4c31-9740-c89bc3aff056")
+		(property "Reference" "ANCHOR2"
+			(at 17.526 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 20.828 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "55828cec-3441-4e0e-8f69-28495ce98533")
+		)
+		(pin ""
+			(uuid "4ef978e1-900f-4cc6-bae1-984cb2b2fc07")
+		)
+		(instances
+			(project "hgt_lab"
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "ANCHOR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:vector_can")
+		(at 33.02 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dde8c8d-75e7-42fe-879c-714deb91c09f")
+		(property "Reference" "Vector_CAN"
+			(at 25.908 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 38.1 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "317c6c91-131e-4192-8a70-06150e4fa52e")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "Vector_CAN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:anchor")
+		(at 63.5 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46a2690f-87a6-4c1e-886a-d339abf4e038")
+		(property "Reference" "ANCHOR5"
+			(at 67.31 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "49c6a54a-e5c6-432d-aabe-27c02f99f648")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "ANCHOR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:anchor")
+		(at 63.5 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ed2aaf5-f159-41ee-b829-1484ad862b1a")
+		(property "Reference" "ANCHOR6"
+			(at 66.802 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6f9f5ef3-81dc-48e5-8b2a-ea8d9a8c2030")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "ANCHOR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:anchor")
+		(at 63.5 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97389834-6dc5-4620-9906-30f2875157bf")
+		(property "Reference" "ANCHOR4"
+			(at 67.31 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 67.31 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "92f9b7e9-0cfa-4fac-a3e7-df026f8b60d9")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "ANCHOR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:HSD_Control_Box")
+		(at 43.18 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a353f0bf-0dd4-4b41-a310-229e5a99817f")
+		(property "Reference" "U8"
+			(at 46.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8dd20632-9127-417c-82d1-e1741d5a42d3")
+		)
+		(pin ""
+			(uuid "90ec7864-7b85-4ff1-8abf-cac2519a8c08")
+		)
+		(pin ""
+			(uuid "565b182e-20a0-4541-b3bd-5ad084e293e7")
+		)
+		(pin ""
+			(uuid "c5fb9797-e580-4cb6-b040-621b8481cc85")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:power_supply")
+		(at 45.72 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab9f1948-c992-4bc0-abf1-932746e64776")
+		(property "Reference" "POWER_SUPPLY"
+			(at 41.91 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b8ee0344-181c-49d0-a5c3-a2e829ea970d")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "POWER_SUPPLY")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:can_power_rewrire_box")
+		(at 39.37 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c12c6ae8-cb31-4fbd-b707-0f50ee409939")
+		(property "Reference" "RE-WIRING_BOX"
+			(at 44.958 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "24d3bbf2-e0a6-4a8e-9887-f711bb882893")
+		)
+		(pin ""
+			(uuid "11bcc2f8-4f84-406f-bcdd-bf04f9845039")
+		)
+		(pin ""
+			(uuid "281a5707-703a-4bee-a38b-99eb766a759d")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "RE-WIRING_BOX")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hgt_lab:anchor_daisy_chain")
+		(at 26.67 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cca97970-2d25-4212-8205-10ac5f765b23")
+		(property "Reference" "ANCHOR1"
+			(at 17.526 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 21.336 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f8c43807-f2fe-45bb-b0ae-d3788840e3af")
+		)
+		(pin ""
+			(uuid "2eb62121-3dd4-430b-9103-49b64f4b47f3")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "ANCHOR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "anchor_daisy_chain_2")
+		(lib_id "hgt_lab:anchor_daisy_chain")
+		(at 26.67 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da71f5bb-6daf-4213-8454-e6fd69c7100c")
+		(property "Reference" "ANCHOR3"
+			(at 17.78 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 20.574 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8dc59b69-a5ef-4ed9-9e40-d95c94a18f0a")
+		)
+		(pin ""
+			(uuid "2ecf629e-1bee-4a4e-8c28-fabe65627975")
+		)
+		(instances
+			(project "hgt_lab"
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "ANCHOR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "schematic_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WD8B00UAEbbWCfwzOoBmOKjvLxo0DUy7Z2qUvA1jMvGJLKsI6YtVIpISA54BlZx3gtMAEYA
+				UQD4MRebo+xrL7lu1ltccyCJ+cw++LWa84giGNsjbPcQ/gyFYsFp3rsIH896NnNL415n/DX79YsT
+				SSmfGWdfbLvsDgzFoss8WFnFbIYRmHvy9UP4Xw/FB5odoQ1Exq796pzn7Ddj7LX4MhjWrnbt7bdj
+				XoNz7dd/fdswJju7DqHZD+hw9Of63XvtW72PeWZs+B9fXBQq0/DVc1qgFQevRNHrAwd8GpokTFSF
+				LlgRCTIdSATMB3R0ozFBKyliUQWKmiQCmsC/RvJmfo6b7H8d643FfqdpkNJ1XVE+UCoWf7FFNjS7
+				CwtnQo5GfGQ1oZLNrdyGIRCMk2EiUSQJkAGDSqJUlBpQUfTAhkSaUISpQLMFzsCcMEqKUE2V9raa
+				MrP97hhKwgaAwARANr3+umVs6excpVQoRQqAgKDhSKUUm5lR0iTDGGBExubIDk5nIHgHc7pjYoIY
+				Kc7/dtmFxQarJJzRl/D352qTfYfIA+fwZpojP//glBKQP/lhKe3YuwkHPQVgoW7pw9wGIqvwAl3R
+				ApUfSorL2CYXioUBiOyADZqjacGKkBQ7LBCmK84AWtxpNHGgDW8mBWVl5o5L0BuklHeVLHUhsSl7
+				0X+52cJYO7n5aodHRyhF/wUgICYMx0TJ7MhYl1OLTSSfIKDTyRQbwB9A8tIZOn87cfhtgju3qcEy
+				1Km9DIAQcoQaJWIi7aYsRNzIiHsIofa0awXBJTNknuy1kQug4y0BRFkjiYATDqOHtHW7z3R5JrK1
+				Ai56QLWLOw7zsnaSF4LdQbaATKNOdx0C/mPrAMoDaBU=|
+			)
+			(checksum "135F1AF5E003071691A663210F6CCD45")
+		)
+	)
+)
