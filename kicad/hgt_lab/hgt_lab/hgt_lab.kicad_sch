@@ -2734,18 +2734,6 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -10.668) (xy -3.048 -10.668)
-					)
-					(stroke
-						(width 2.54)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -3.048 -10.922) (xy -3.048 -10.16)
 					)
 					(stroke
