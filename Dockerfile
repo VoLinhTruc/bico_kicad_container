@@ -12,7 +12,7 @@ RUN apt update
 RUN apt install -y kicad
 
 # Copy and set up entrypoint script (relative to .devcontainer/)
-COPY ./entrypoint.sh /entrypoint.sh
+COPY .devcontainer/entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
 
 USER $USERNAME
