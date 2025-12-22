@@ -1563,7 +1563,7 @@
 			(symbol "HSD_Control_Box_0_1"
 				(rectangle
 					(start -3.81 25.4)
-					(end 11.43 -7.874)
+					(end 12.446 -7.874)
 					(stroke
 						(width 0)
 						(type default)
@@ -1584,9 +1584,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.254 0.508)
-					(end 5.08 -4.064)
+				(polyline
+					(pts
+						(xy 3.81 -4.572) (xy 3.81 -4.572)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1597,7 +1598,31 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -4.572) (xy 3.81 -4.572)
+						(xy 9.652 8.763) (xy 9.652 8.763)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.906 24.003) (xy 9.906 24.003)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.906 16.383) (xy 9.906 16.383)
 					)
 					(stroke
 						(width 0)
@@ -1637,6 +1662,18 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 0.508)
+					(end 5.08 -4.064)
+					(stroke
+						(width 0)
+						(type dash)
+						(color 0 0 0 1)
 					)
 					(fill
 						(type none)
@@ -1708,7 +1745,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 24.13) (xy 11.43 20.32)
+						(xy 2.54 23.876) (xy 5.842 23.876)
 					)
 					(stroke
 						(width 0)
@@ -1734,7 +1771,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 16.51) (xy 11.43 12.7)
+						(xy 2.54 16.256) (xy 5.842 16.256)
 					)
 					(stroke
 						(width 0)
@@ -1760,7 +1797,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 8.89) (xy 11.43 5.08)
+						(xy 2.54 8.636) (xy 5.588 8.636)
 					)
 					(stroke
 						(width 0)
@@ -1812,7 +1849,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 21.59) (xy 11.43 20.32)
+						(xy 3.81 21.59) (xy 5.842 21.59)
 					)
 					(stroke
 						(width 0)
@@ -1838,7 +1875,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 13.97) (xy 11.43 12.7)
+						(xy 3.81 13.97) (xy 5.842 13.97)
 					)
 					(stroke
 						(width 0)
@@ -1864,7 +1901,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 6.35) (xy 11.43 5.08)
+						(xy 3.81 6.35) (xy 5.588 6.35)
 					)
 					(stroke
 						(width 0)
@@ -1909,6 +1946,197 @@
 						(width 0)
 						(type solid)
 						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.826 9.144)
+					(end 9.398 5.842)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 24.384)
+					(end 9.271 21.082)
+					(stroke
+						(width 0)
+						(type dash)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 16.764)
+					(end 9.271 13.462)
+					(stroke
+						(width 0)
+						(type dash)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 8.636) (xy 7.366 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 6.35) (xy 7.366 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 23.876) (xy 7.62 22.86)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 21.59) (xy 7.62 22.86)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 16.256) (xy 7.62 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 13.97) (xy 7.62 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 153 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 7.62) (xy 9.144 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 22.86) (xy 8.89 22.86)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 15.24) (xy 8.89 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 22.86) (xy 10.668 22.86) (xy 12.446 20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 15.24) (xy 10.668 15.24) (xy 12.446 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 7.62) (xy 10.922 7.62) (xy 12.7 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
@@ -1981,7 +2209,7 @@
 					)
 				)
 				(pin output line
-					(at 13.97 20.32 180)
+					(at 14.986 20.32 180)
 					(length 2.54)
 					(name "DB9_ALL_hsd3"
 						(effects
@@ -1999,7 +2227,7 @@
 					)
 				)
 				(pin output line
-					(at 13.97 12.7 180)
+					(at 14.986 12.7 180)
 					(length 2.54)
 					(name "DB9_ALL_hsd2"
 						(effects
@@ -2017,7 +2245,7 @@
 					)
 				)
 				(pin output line
-					(at 13.97 5.08 180)
+					(at 14.986 5.08 180)
 					(length 2.54)
 					(name "DB9_ALL_hsd1"
 						(effects
@@ -2392,27 +2620,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "hgt_lab:can_power_rewrire_box"
+		(symbol "hgt_lab:can_power_rewrire"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RE-WIRING"
-				(at 5.588 -0.508 0)
+			(property "Reference" "U"
+				(at 0 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "~"
-				(at 6.35 -2.5399 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2442,18 +2667,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "can_power_rewrire_box_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "can_power_rewrire_0_1"
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -2.54)
@@ -2467,7 +2681,19 @@
 					)
 				)
 			)
-			(symbol "can_power_rewrire_box_1_1"
+			(symbol "can_power_rewrire_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type dash)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -2.54 1.27) (xy 0 -1.27)
@@ -4095,6 +4321,80 @@
 		)
 	)
 	(symbol
+		(lib_id "hgt_lab:can_power_rewrire")
+		(at 46.99 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a67bc72-7a5c-42a8-8bbf-8ca44140a722")
+		(property "Reference" "REWIRING"
+			(at 53.34 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1bbf1f9d-076c-46d7-9a89-bb15807684f5")
+		)
+		(pin ""
+			(uuid "43c68353-eb87-48ee-a918-069da7cd69b3")
+		)
+		(pin ""
+			(uuid "8d14c7ed-e38e-40b5-bf98-11fb0e0848d9")
+		)
+		(instances
+			(project ""
+				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
+					(reference "REWIRING")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hgt_lab:vector_can")
 		(at 40.64 27.94 0)
 		(unit 1)
@@ -4701,79 +5001,6 @@
 			(project ""
 				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
 					(reference "DB9_ALL_out")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hgt_lab:can_power_rewrire_box")
-		(at 46.99 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c12c6ae8-cb31-4fbd-b707-0f50ee409939")
-		(property "Reference" "RE-WIRING"
-			(at 52.578 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 53.34 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "24d3bbf2-e0a6-4a8e-9887-f711bb882893")
-		)
-		(pin ""
-			(uuid "11bcc2f8-4f84-406f-bcdd-bf04f9845039")
-		)
-		(pin ""
-			(uuid "281a5707-703a-4bee-a38b-99eb766a759d")
-		)
-		(instances
-			(project ""
-				(path "/71882b24-4576-410d-80ea-9cc90d8a026f"
-					(reference "RE-WIRING")
 					(unit 1)
 				)
 			)
