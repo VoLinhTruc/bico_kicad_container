@@ -15,10 +15,10 @@ RUN apt install -y kicad
 COPY .devcontainer/entrypoint.sh /entrypoint.sh
 RUN sudo chmod +x /entrypoint.sh
 
-USER $USERNAME
-
 # Clean up apt cache to reduce image size
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+
+USER $USERNAME
 
 CMD ["/entrypoint.sh", "bash"]
